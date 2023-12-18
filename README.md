@@ -14,9 +14,9 @@ Now you can see execution result in the terminal!
 
 ## About complexity
 
-My function is based on a binary search algorithm, which time
-complexity is O(n log n) where "n" is the length of the input
-sequence.
+My function is based on a binary search algorithm, which works
+well for sorted arrays of varying sizes. It`s time complexity
+is O(n log n) where "n" is the length of the input sequence.
 
 The final checks for missing numbers' positions in
 the array have constant time complexity, so they don't affect
