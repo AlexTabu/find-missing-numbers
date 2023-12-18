@@ -49,11 +49,11 @@ function findMissingNumbers(sequence) {
     const lastElement = sequence[sequence.length - 1];
 
     if (missingNumbers[0] > lastElement) {
-        throw new Error('There are no missing elements in your array');
+        throw new Error('There are no missing elements in your sequence.');
     }
     
     if (missingNumbers[1] > lastElement) {
-        throw new Error(`There is only one missing element in your array: ${missingNumbers[0]}`);
+        throw new Error(`There is only one missing element in your sequence: ${missingNumbers[0]}.`);
     }
   
     return missingNumbers;
