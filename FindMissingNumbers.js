@@ -9,6 +9,10 @@ function findMissingNumbers(sequence) {
         throw new Error("Input sequence is empty.");
     }
 
+    if (sequence[0] !== 1) {
+        throw new Error("Input sequence must start with 1.");
+    }
+
     const missingNumbers = [];
   
     const binarySearch = (arr, target) => {
